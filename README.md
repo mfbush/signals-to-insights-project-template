@@ -58,4 +58,4 @@ If VS Code asks to sign in to GitHub, allow it and sign in with your GitHub acco
 
 ## What to do next
 
-Open `tasks/001-gitignore.md`. Tasks 001 to 003 take about 30 minutes in all, and task 003 ends with the topic declaration on Canvas, due Sunday, November 8.
+Open `tasks/001-gitignore.md`. Tasks 001 to 003 take about 30 minutes in all. Tasks 001 and 002 are due Sunday, November 1, and task 003 ends with the topic declaration on Canvas, due Sunday, November 8.

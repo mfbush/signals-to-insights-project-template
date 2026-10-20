@@ -3,7 +3,7 @@
 - **Status:** active
 - **Created:** YYYY-MM-DD
 - **Updated:** YYYY-MM-DD
-- **Due:** 2026-11-08, after task 001
+- **Due:** 2026-11-01, after task 001
 
 ## Goal
 
