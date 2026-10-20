@@ -7,7 +7,7 @@
 
 ## Goal
 
-The topic declaration is in on Canvas: the URL of this repository and the hash of a pushed commit that holds `topic.ipynb`, and for CHEM 527 the proposal. Section 1 of the final project page says what both contain and how the declaration is scored. CHEM 427 students start this task after projects are assigned on Tuesday, November 3.
+The topic declaration is in on Canvas: the URL of a pushed commit in this repository that holds `topic.ipynb`, and for CHEM 527 the proposal. Section 1 of the final project page says what both contain and how the declaration is scored. CHEM 427 students start this task after projects are assigned on Tuesday, November 3.
 
 ## Steps
 
@@ -43,18 +43,18 @@ git commit -m "Topic declaration"
 git push
 ```
 
-6. Read the hash of the commit you just pushed. The hash is the long string of letters and digits that this command prints. GitHub shows its first seven characters beside your latest commit when you click **Commits** on your repository's page.
+6. Find the URL of the commit you just pushed. Open your repository on GitHub, click **Commits**, and click the message of your latest commit, "Topic declaration". Copy the address from your browser. It ends in `/commit/` and the commit's hash, a string of 40 letters and digits that names this commit. To check that it is the commit you pushed, compare its hash with the one this command prints:
 
 ```bash
 git rev-parse HEAD
 ```
 
 7. If your repository is private, check under **Settings**, **Collaborators** that the three invitations from the README were sent.
-8. On Canvas, open the assignment "Topic declaration" and submit a text entry with two lines: your repository's URL, and the hash.
+8. On Canvas, open the assignment "Project topic declaration" and submit the commit's URL as a website URL.
 
 ## Done when
 
-The Canvas entry is in. Close this task after it is, with the hash you submitted in **Outcome**, and commit and push the closed task. Your mentor reads the repository at the hash you submitted, so later commits do not change what is scored.
+The Canvas entry is in. Close this task after it is, with the URL you submitted in **Outcome**, and commit and push the closed task. Your mentor reads the repository at the commit you submitted, so later commits do not change what is scored.
 
 ## Progress log
 

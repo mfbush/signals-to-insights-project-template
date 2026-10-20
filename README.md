@@ -1,6 +1,6 @@
 # CHEM 427/527 final project template
 
-This repository is the starting point for your final project in CHEM 427/527, Data Science for Chemical Measurements. You make your own copy of it, and that copy holds your project from the topic declaration on Sunday, November 8, to the final submission on Wednesday, December 9. It is also what you submit: each project milestone on Canvas is your repository's URL and the hash of the commit you want read. What is scored, and how, is on the course's [final project page](https://github.com/mfbush/signals-to-insights/blob/main/final-project.md). This page says how to make your copy and start it.
+This repository is the starting point for your final project in CHEM 427/527, Data Science for Chemical Measurements. You make your own copy of it, and that copy holds your project from the topic declaration on Sunday, November 8, to the final submission on Wednesday, December 9. It is also what you submit: each project milestone on Canvas is the URL of the commit you want read, the GitHub page of one saved state of your repository. What is scored, and how, is on the course's [final project page](https://github.com/mfbush/signals-to-insights/blob/main/final-project.md). This page says how to make your copy and start it.
 
 ## What is here
 
