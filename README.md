@@ -8,7 +8,7 @@ This repository is the starting point for your final project in CHEM 427/527, Da
 - `tasks/` is your project's task list, one file per piece of work. Three tasks are open on day one, and `tasks/README.md` explains the format.
 - `judgment-log.md` is your judgment log, with the headings from the final project page.
 
-Four files are missing on purpose: `.gitignore`, `pyproject.toml`, `uv.lock`, and a notebook. Tasks 001 to 003 have you add them, in that order.
+Five files are missing on purpose: `.gitignore`, the three environment files `pyproject.toml`, `uv.lock`, and `.python-version`, and a notebook. Tasks 001 to 003 have you add them, in that order.
 
 ## Make your copy
 
