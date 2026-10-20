@@ -18,7 +18,7 @@ This takes about 10 minutes.
 2. At the top of this repository's page, click **Use this template**, then **Create a new repository**. Do not fork the repository instead, because a fork of a public repository cannot be made private.
 3. Leave **Owner** as your account. Under **Repository name**, type `chem427-project` or `chem527-project`. CHEM 427 projects are assigned on Tuesday, November 3, so name the repository for the course, not for the project.
 4. Choose **Public** or **Private**. Either is fine for the course. Click **Create repository**.
-5. If you chose **Private**, share the repository with the instructional team. Open your new repository's **Settings**, choose **Collaborators**, click **Add people**, and add each of these three GitHub usernames: `mfbush` (Matt), `LUCAS-GITHUB` (Lucas), and `CHRIS-GITHUB` (Chris). Your mentor cannot read a private repository until they accept the invitation.
+5. If you chose **Private**, share the repository with the instructional team. Open your new repository's **Settings**, choose **Collaborators**, click **Add people**, and add each of these three GitHub usernames: `mfbush` (Matt), `lnarisawa` (Lucas), and `ChrisJWeir` (Chris). Your mentor cannot read a private repository until they accept the invitation.
 
 **You know it worked when** your browser shows a repository under your own account with this README on its front page.
 
