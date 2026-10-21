@@ -36,8 +36,7 @@ output/
 .claude/settings.local.json
 ```
 
-3. If you know your dataset, decide now whether it goes in the repository, by the next section. If you do not know it yet, as for CHEM 427 students before November 3, come back to that section in task 003.
-4. Save the file, then commit and push it:
+3. Save the file, then commit and push it:
 
 ```bash
 git add .gitignore
@@ -51,31 +50,15 @@ git commit -m "Add .gitignore"
 git push
 ```
 
-Do not add `AGENTS.md`, `judgment-log.md`, `tasks/`, or `.claude/skills/` to this file. The final submission needs all four. Note that the course repository ignores `.claude/skills/`, because a skill you write in session 12 is yours alone, whereas in this repository your skill is part of what you submit.
+Do not add `data/`, `AGENTS.md`, `judgment-log.md`, `tasks/`, or `.claude/skills/` to this file. The final submission needs all five. Note that the course repository ignores `.claude/skills/`, because a skill you write in session 12 is yours alone, whereas in this repository your skill is part of what you submit.
 
-## Data: commit them, or download them in a cell
+## Data: commit them as downloaded
 
-Commit your data in a `data/` folder when they total less than about 50 MB and their source allows you to share a copy. GitHub warns about any file over 50 MB and refuses one over 100 MB. Projects 4, 5, 6, and 11 on the CHEM 427 project list download 95 to 145 MB, so they are in the second case.
+Your data go in the repository, in a `data/` folder, exactly as you downloaded them. Your mentor runs your notebook from the commit you submit with downloads blocked, so the notebook reads its data from the committed files, never from the source URL. All cleaning happens in code: a value you correct or a row you drop is a line in your notebook, and the file stays as it came. You add the files in task 003, so you can finish this task before you know your dataset.
 
-Otherwise, add this line to `.gitignore`:
+GitHub refuses a push with any file over 100 MB and warns about a file over 50 MB. The warning is not an error, and the push goes through. Every dataset on the CHEM 427 project list fits under the limit, and projects 2, 4, 5, and 11 push with the warning. Commit and push with git, because GitHub's web page uploads files of at most 25 MB. If you expect your data to total more than 5 GB, talk to your mentor before you commit them.
 
-```text
-# Data downloaded by the load cell in topic.ipynb and the project notebook
-data/
-```
-
-Then have the notebook's load cell download the file when it is missing. The markdown cell above it gives the URL and the date you accessed it, as the final project page requires.
-
-```python
-from pathlib import Path
-from urllib.request import urlretrieve
-
-DATA_URL = "https://example.org/spectra.csv"  # accessed 2026-11-05
-data_file = Path("data/spectra.csv")
-if not data_file.exists():
-    data_file.parent.mkdir(exist_ok=True)
-    urlretrieve(DATA_URL, data_file)
-```
+If your data cannot be stored on GitHub, because they are too large or their license does not allow a copy to be shared, ask your mentor for an exemption, with your topic declaration or at any time up to Tuesday, December 1. Once your mentor approves it, commit `data/EXEMPT.md` with the reason, the date of the approval, and a copy of the notebook's download cell. Then list each downloaded file by name in `.gitignore`, such as `data/spectra.csv`, but not the whole `data/` folder, which holds `EXEMPT.md`. The [final project page](https://github.com/mfbush/signals-to-insights/blob/main/final-project.md#your-project-repository) has the rest of the rule.
 
 ## Done when
 

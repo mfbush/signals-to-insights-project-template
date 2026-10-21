@@ -11,7 +11,7 @@ The topic declaration is in on Canvas: the URL of a pushed commit in this reposi
 
 ## Steps
 
-1. Put your data in `data/`, or write the download cell from task 001 if they stay out of the repository.
+1. Put your data in `data/`, exactly as you downloaded them, to be committed in step 5. Task 001's data section gives GitHub's limits and the exemption for data that cannot be stored there.
 2. Make `topic.ipynb` in the top folder of the repository, on the `.venv` kernel. Its first markdown cell gives your question in one sentence, the data source with its URL and access date, and for CHEM 427 the name of the project you were assigned. Its one code cell loads the data from a relative path and prints the number of rows, the column names, and the unit of the measured variable, such as:
 
 ```python
@@ -25,7 +25,7 @@ print("absorbance: AU")
 
 3. CHEM 527 only: write the one page proposal the final project page describes, as `proposal.md` or `proposal.pdf` in the top folder.
 4. Fill in the three lines under "This project" at the end of `AGENTS.md`. They tell the assistant your question, your data, and your unit from the first prompt on.
-5. Restart the kernel and click **Run All**, so that the notebook is saved with its output. Then check what git will commit before you commit it:
+5. Restart the kernel and click **Run All**, so that the notebook is saved with its output. Then check what git will commit before you commit it. The first command below should list `data/` and `topic.ipynb` as untracked.
 
 ```bash
 git status

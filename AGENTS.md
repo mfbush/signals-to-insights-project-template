@@ -21,7 +21,7 @@ When the student asks for a plan, give it in words and write no code until the s
 - Each code cell is preceded by a markdown cell that states its purpose, its scientific choice, and the output to expect. `snake_case` names, with the unit in an inline comment.
 - Figures use `fig, ax = plt.subplots()`, axis labels with units, and a marker or line style per series, so that no meaning is carried by color alone. The markdown cell after each plot says in one sentence what it shows.
 - The notebook runs top to bottom after a kernel restart and ends with a cell that prints the Python and package versions.
-- Data are cited with their URL and access date. Data over about 50 MB stay out of the repository and are downloaded by the notebook's load cell.
+- Data are cited with their URL and access date. They are committed in `data/` exactly as downloaded, and all cleaning happens in code, never by editing a data file. The notebook never downloads data, unless `data/EXEMPT.md` records the mentor's approval.
 - The student keeps a task list in `tasks/`, in the format of `tasks/README.md`.
 
 ## This project
